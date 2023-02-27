@@ -13,7 +13,7 @@ const Clock = () => {
 
     return (
         <Card className='w-50 h-100 minWidth234'>
-            <Card.Header className='bg-success text-white'>
+            <Card.Header className='bg-primary text-white'>
                 <h1>
                     Clock
                 </h1>
