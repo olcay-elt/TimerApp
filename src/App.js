@@ -1,25 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Clock from './components/Clock';
+import Timer from './components/Timer';
+import { Stack } from 'react-bootstrap';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <div className='h250px text-center'>
+                <Stack className='h-100' direction="horizontal" gap={3}>
+                    <Clock />
+                    <Timer />
+                </Stack>
+            </div>
+        </div>
+    );
 }
 
 export default App;
