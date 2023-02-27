@@ -5,6 +5,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .h250px {
@@ -22,4 +23,5 @@
 
 .minWidth234 {
     min-width: 234px !important;
+
 }
